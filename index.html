@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Rick and Morty API</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="flex">
+        <div class="logoIcon">
+            <picture>
+                <source media="(min-width:650px)" srcset="images/newlogo.png" width="170" height="100">
+                <img src="images/s-newlogo.png" alt="Flowers" width="50" height="50" >
+            </picture>
+        </div>
+        <div class="navigation">
+            <ul>
+                <li onclick="hiddenAPIinfo()"><a href="index.html">Home</a></li>
+                <li  onclick="showAPI()"><a href="#APIinfo">API info</a></li>
+                <li  onclick="showWatchlist()"><a href="#watchlist">My Watchlist</a></li>
+            </ul>
+        </div>
+        <div class="loginIcon">
+            <button class="loginButton">Login</button>
+        </div>
+    </div>
+        <div class="main-grid-container">
+            <div class="main-grid-item"><button class="button-item" onclick="popularMovies()" >Popular Movies</button></div>
+            <div class="main-grid-item"><button class="button-item" onclick="topRatedMovies()">Top Rated Movies</button></div>
+            <div class="main-grid-item"><button class="button-item" onclick="popularPerson()">Popular Persons</button></div>
+            <div class="main-grid-item"><button class="button-item" onclick="searchMovies()">Search Movies</button></div>
+        </div>
+    
+        <hr>
+        <div class="searchmovies"></div>
+
+        <div class="WelcomeDiv">
+                    <h1>Welcome to </h1>
+                    <img src="images/newlogo.png" alt="newlogo" width="100%" height="200px">
+                    <p>The <b><span style="color: white; background-color: #0bcc8b; border-radius: 3px; padding: 2px;">Best</span></b> Website to view popular, Top Rated and searching movies, and show a list of Popular Actors.</p>
+        </div>
+        <div id="movies-grid-container">
+            <!-- grid-item -->
+        </div>
+        <div id="movies-more-info">
+            <div class="imge-more-info">
+                
+            </div>
+            <div class="data-more-info">
+
+            </div>
+        </div>
+
+        <div id="APIinfo">
+            <img src="images/API.jpg" alt="API logo" width="100%" height="290px">
+            <p>The Movie Database (<a href="https://www.themoviedb.org/documentation/api">TMDB</a>) is a community built movie and TV database. Every piece of data has been added by our amazing community dating back to 2008. TMDb's strong international focus and breadth of data is largely unmatched and something we're incredibly proud of. Put simply, we live and breathe community and that's precisely what makes us different.</p>
+        </div>
+
+
+
+
+<script src="js/myJs.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+
+
+</body>
+</html>
