@@ -9,7 +9,7 @@ The Best Website to (view popular), (Top Rated) and (searching movies), and show
 ## Executing program
 
 Open the index.html to view the project or view the project vie this link https://s-mw.github.io/Project-Unit-1-/
-
+Note: All the commits are in this Repo ( https://github.com/S-MW/Project-Unit-1 )
 ## The used API
  www.themoviedb.org 
 ---
